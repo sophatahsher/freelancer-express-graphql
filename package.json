@@ -1,0 +1,20 @@
+{
+  "name": "freelancer-express-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL Example",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "locations-graphql-api-server"
+  ],
+  "author": "Sophat Chhay",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.8.0"
+  }
+}
