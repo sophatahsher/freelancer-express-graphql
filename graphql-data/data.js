@@ -78,7 +78,7 @@ export const freelancers = [
         expertise: "Full Stack Developer",
         category: "Backend",
         location: "Phnom Penh",
-        skills: [],
+        skills: ["NodeJS", "Python", "PHP"],
         profilePicture:  "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg",
     },
 ];
