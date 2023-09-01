@@ -30,18 +30,18 @@ const findFreelancer = (args) => {
 }
 
 // Find freelancers with tech category
-const findFreelancersByCatId = (args) => {
-  if (args.category) {
-      return freelancers.filter((freelancer) => freelancer.category.toLowerCase() === args.category.toLowerCase());
-  } else {
-    return freelancers;
-  }
+const findFreelancersByCategory = (args) => {
+    if (args.category) {
+        return freelancers.filter((freelancer) => freelancer.category.toLowerCase() === args.category.toLowerCase());
+    } else {
+        return freelancers;
+    } 
 }
 
 // Root resolver
 const graphqlData = {
     freelancer: findFreelancer,
-    freelancers: findFreelancersByCatId,
+    freelancers: findFreelancersByCategory,
 };
 
 // Create an express server and a GraphQL endpoint
